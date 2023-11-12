@@ -4,6 +4,7 @@ WHITE = '\u001b[47m'
 END = '\u001b[0m'
 for i in range(6):
     if i < 3:
-        print(f'{WHITE}{END}')
+        print(f'{WHITE}{("  ")*15}{END}')
     else:
-        print(f'{RED}{END}')
+        print(f'{RED}{("  ")*15}{END}')
+#интересный факт: и на ноутбуке и на компе вывод лагает, чтобы проверить правильность нужно вывести несколько раз
