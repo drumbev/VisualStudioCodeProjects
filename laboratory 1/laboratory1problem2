@@ -1,0 +1,32 @@
+RED = '\u001b[41m'
+BLUE = '\u001b[44m'
+END = '\u001b[0m'
+
+print(f'{BLUE}{"  "*15}{END}')
+print(f'{RED}{"  "*6}{BLUE}{"  " * 3}{RED}{"  "*6}{END}')
+print(f'{BLUE}{"  "*15}{END}')
+print(f'{RED}{"  " * 3}{BLUE}{"  " * 3}{RED}{"  " * 3}{BLUE}{"  " * 3}{RED}{"  " * 3}{END}')
+print(f'{BLUE}{"  "*15}{END}')
+
+
+
+
+
+
+    #     print(f'{RED}{"  "*4}{WHITE}{"  "*4}',f'{RED}{"  "*4}{END}')
+    # elif i==1:
+    #     print(f'{RED}{"  "*(6-(2*i))}{WHITE}{"  "* (6-(2*i))}',f'{RED}{"  "*(6-(2*i))}{END}')
+    # elif i==2:
+    #     print(f'{RED}{"  "*((8-2*i))}{WHITE}{"  "* (8-(2*i))}',f'{RED}{"  "*(8-(2*i))}{END}')
+    # elif i==3:
+    #     print(f'{WHITE}{"  "*((10-2*i))}{RED}{"  "* (10-(2*i))}',f'{WHITE}{"  "*(10-(2*i))}{END}')
+    # elif i==4:
+    #     print(f'{WHITE}{"  "*((12-2*i))}{RED}{"  "* (12-(2*i))}',f'{WHITE}{"  "*(12-(2*i))}{END}')
+    # elif i==5:
+    #     print(f'{WHITE}{"  "*((14-2*i))}{RED}{"  "* (14-(2*i))}',f'{WHITE}{"  "*(14-(2*i))}{END}')
+    # elif i==6:
+    #      print(f'{RED}{"  "*((16-2*i))}{WHITE}{"  "* (16-(2*i))}',f'{RED}{"  "*(16-(2*i))}{END}')
+    # elif i==7:
+    #      print(f'{RED}{"  "*((18-2*i))}{WHITE}{"  "* (18-(2*i))}',f'{RED}{"  "*(18-(2*i))}{END}')
+    # else:
+    #      print(f'{RED}{"  "*((20-2*i))}{WHITE}{"  "* (20-(2*i))}',f'{RED}{"  "*(20-(2*i))}{END}')
